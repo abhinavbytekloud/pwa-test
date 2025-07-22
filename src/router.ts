@@ -32,12 +32,12 @@ export const router = new Router({
         render: () => html`<app-about></app-about>`
       },
       {
-        path: resolveRouterPath('new-page'),
-        title: 'new page',
+        path: resolveRouterPath('gallery'),
+        title: 'Gallery',
         plugins: [
-          lazy(() => import('./pages/new-page.js')),
+          lazy(() => import('./pages/gallery.js')),
         ],
-        render: () => html`<new-page></new-page>`
+        render: () => html`<app-gallery></app-gallery>`
       }
     ]
   });
