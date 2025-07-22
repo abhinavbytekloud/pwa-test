@@ -9,9 +9,10 @@
   "description": "This is a app-test app",
   "orientation": "any",
   "background_color": "#E1477E",
-  "related_applications": [],
   "prefer_related_applications": false,
-  "display_override": ["window-controls-overlay"],
+  "display_override": [
+    "window-controls-overlay"
+  ],
   "launch_handler": {
     "client_mode": "focus-existing"
   },
@@ -58,7 +59,12 @@
       "short_name": "About",
       "description": "Open the about page",
       "url": "/about",
-      "icons": [{ "src": "assets/icons/192x192.png", "sizes": "192x192" }]
+      "icons": [
+        {
+          "src": "assets/icons/192x192.png",
+          "sizes": "192x192"
+        }
+      ]
     }
   ],
   "widgets": [
