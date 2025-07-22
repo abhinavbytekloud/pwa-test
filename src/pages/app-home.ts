@@ -141,6 +141,7 @@ export class AppHome extends LitElement {
             <li><strong>Artificial Intelligence (AI)</strong>: Machines learn from data and perform tasks requiring human-like intelligence.</li>
             <li><strong>Wearable Technology</strong>: Devices like smartwatches track health and enhance daily life.</li>
           </ul>
+          PWA Test
         </div>
       </main>
     `;
