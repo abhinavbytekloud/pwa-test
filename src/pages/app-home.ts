@@ -132,6 +132,16 @@ export class AppHome extends LitElement {
           <hr>
           <sl-button href="${resolveRouterPath('gallery')}" variant="primary">Navigate to Gallery</sl-button>
         </div>
+        <div>
+          <h1>Features of Technology</h1>
+          <ul>
+            <li><strong>Automation</strong>: Reduces human effort by automating repetitive tasks.</li>
+            <li><strong>Connectivity</strong>: Enables constant communication through the internet and wireless devices.</li>
+            <li><strong>Data Storage & Processing</strong>: Cloud computing allows fast data storage and processing.</li>
+            <li><strong>Artificial Intelligence (AI)</strong>: Machines learn from data and perform tasks requiring human-like intelligence.</li>
+            <li><strong>Wearable Technology</strong>: Devices like smartwatches track health and enhance daily life.</li>
+          </ul>
+        </div>
       </main>
     `;
   }
